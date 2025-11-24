@@ -50,10 +50,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: BOUKAISS MOHAMMED
+- **AGE**: 19
+- **Discord ID**: 1442539325970448495
+- **Établissement**: FSO
 
 ---
 
