@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Nizar Elfennani
+- **AGE**: 23 Ans
+- **Discord ID**: elfennani
+- **Établissement**: FSO - IA S3
 
 ---
 
