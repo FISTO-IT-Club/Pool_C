@@ -1,15 +1,12 @@
 #include <stdio.h>
-
-void PrintChar(char a)
-{
-    printf("%c", a);
-}
+#include <io.h>
 
 void PrintAlphabet()
 {
-    for(size_t i = 65; i<= 90; i++)
+    for(size_t i = 97; i<= 122; i++)
     {
-       PrintChar((char)i);
+        char a = (char)i;
+        _write(1, &a, 1);
     }
 }
 
