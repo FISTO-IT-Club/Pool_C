@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Lina Ramdani
+- **AGE**: 18 ans
+- **Discord ID**: 1436833277632843946
+- **Établissement**: Facultés des sciences
 
 ---
 
