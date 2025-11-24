@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: yahya khaldy
+- **AGE**: 26
+- **Discord ID**: 945863395876417587
+- **Établissement**: zone01
 
 ---
 
