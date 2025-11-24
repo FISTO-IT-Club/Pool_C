@@ -50,10 +50,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Achraf OUCHCHATE
+- **AGE**: 25
+- **Discord ID**: aouchcha
+- **Établissement**: Zone01Oujda
 
 ---
 
