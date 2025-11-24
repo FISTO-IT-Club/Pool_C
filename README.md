@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Assiya Yahyaoui
+- **AGE**: 19 ans
+- **Discord ID**: 1442295890629886038
+- **Établissement**: Faculte des sciences
 
 ---
 
