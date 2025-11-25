@@ -59,4 +59,3 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ---
 
-**✨ Codez comme si demain n'existait pas ! ✨**
