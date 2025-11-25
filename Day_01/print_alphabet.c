@@ -12,7 +12,6 @@ void print_alphabet(void){
 	char s ='a';
    while( s<='z'){
 		write(1,&s,1);
-		printf("\t");
 		s++;
 	}		
 }
