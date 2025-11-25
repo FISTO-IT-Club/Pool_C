@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main (int argc, char *argv[]) {
     int x;
@@ -8,13 +7,13 @@ int main (int argc, char *argv[]) {
     if (x < 0) {
         printf("Error! Square root of negative numbers is undefined.\n");
     } else {
-        double result = sqrt((double)x);
-        int floor_result = (int)result;
-        if(result == floor_result) {
-            printf("Square root of %d is %d\n", x, floor_result);
-        } else {
-            printf("Square root of %d is %d floored\n", x, floor_result);
+        int result = 0;
+        int i = 0;
+        while(i * i <= x) {
+            result = i;
+            i++;
         }
+        printf("The floored square root of %d is %d\n", x, result);
     }
     return 0;
 }
