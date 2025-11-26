@@ -15,6 +15,8 @@ int  remove_int(int arr[], int size, int target) {
 return j;
 
 
+
+
 }
 int main ()  {
    int array[]={1,2,5,6,5,5,7,8};

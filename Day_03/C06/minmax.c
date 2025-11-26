@@ -11,7 +11,6 @@ int min , max ;
         }
         return 0;
         
-
     }
 int main() {
 
