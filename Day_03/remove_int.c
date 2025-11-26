@@ -14,5 +14,5 @@ int remove_int(int arr[], int size, int target)
         }
     }
 
-    return j;   // new size
+    return j;  
 }
