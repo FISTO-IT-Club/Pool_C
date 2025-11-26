@@ -8,11 +8,13 @@ int  remove_int(int arr[], int size, int target) {
   {
      arr[j] =arr[i];
      j++;
-     
+
   }  
     }
 
 return j;
+
+
 }
 int main ()  {
    int array[]={1,2,5,6,5,5,7,8};
