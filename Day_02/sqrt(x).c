@@ -11,5 +11,5 @@ int sqrt_x(int nb)
     i = 1;
     while ((long)i * (long)i <= nb)
         i++;
-    return i - 1;   // floor of sqrt(nb)
+    return i - 1;
 }
