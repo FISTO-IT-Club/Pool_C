@@ -8,8 +8,8 @@ int if_insert_pos(int arr[], int size, int n)
             return i;
 
         if (arr[i] > n)
-            return i;  // position d'insertion
+            return i;  
     }
-    return size; // inséré à la fin
+    return size; 
 }
 
