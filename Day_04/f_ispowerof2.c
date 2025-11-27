@@ -13,7 +13,7 @@ int f_ispowerof2(int x){
 int main(){
     int result=f_ispowerof2(36);
     if(result==0){
-        printf("no");
+        printf("No");
     }else{
         printf("res :%d",result);
     }
