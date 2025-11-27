@@ -1,3 +1,4 @@
+#include <unistd.h>
 int if_insert_pos(int arr[], int size, int n) {
   int i = 0;
   while (i < size) {

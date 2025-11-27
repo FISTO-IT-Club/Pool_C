@@ -1,3 +1,4 @@
+#include <unistd.h>
 int min_max(int arr[], int size, int *min, int *max) {
   if (size <= 0)
     return 0;
