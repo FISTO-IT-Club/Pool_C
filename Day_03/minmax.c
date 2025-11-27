@@ -30,6 +30,7 @@ int main(void)
 {
     int arr[] = {3, 5, 2, 8, 1, 4};
     int size = 6;
+    printf("Array elements: %d", arr.sizeof(arr)/sizeof(arr[0]));
 
     int min = min_max(arr, size, 'm');
     int max = min_max(arr, size, 'M');
