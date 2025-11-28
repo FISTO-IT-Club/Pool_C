@@ -5,7 +5,7 @@ void two_sum(int arr[], int size, int target){
     for(int i =0; i < size; i++){
         for(int j = i+1; j < size; j++){
             if(arr[i] + arr[j] == target){
-                printf("indices are: [%d,%d]", i+1, j+1);
+                printf("indices are: [%d,%d]", i, j);
                 return;
             } 
         }
