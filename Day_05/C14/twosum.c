@@ -6,8 +6,7 @@ void two_sum(int arr[], int size, int target) {
        for (int j = i+1; j < size; j++)
        {
         if ((arr[i] + arr[j]) == target)
-        {
-           
+        { 
         printf(" output indices %d | %d ",i+1,j+1); // i+1,j+1 affiche l'indice pour logique de l'utilisateur
         return;
        }

@@ -12,6 +12,7 @@
      return somme; 
 }
 
+
    int main() {
 
     int array[]={1,5,6,22,7};

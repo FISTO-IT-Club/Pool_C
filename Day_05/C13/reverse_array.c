@@ -21,6 +21,5 @@ int main() {
     printf("\n****Apres Reverse****\n");
     reverse_array(array);
 
-
     return 0;
 }
