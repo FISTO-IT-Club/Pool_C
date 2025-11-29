@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Ayoub El Achab
+- **AGE**: 19 ans
+- **Discord ID**: 1294013998332776580
+- **Établissement**: Faculté des Sciences Oujda
 
 ---
 
