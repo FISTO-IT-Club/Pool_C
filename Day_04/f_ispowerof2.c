@@ -1,4 +1,6 @@
 #include<stdio.h>
+// we EXCLUDED the use of math.h
+// by Ali
 #include <math.h>
 int f_ispowerof2(int x){
     int i;
