@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// ???? used a bit wise , clever i guess :T , By Ali
 int f_ispowerof2(int x) {
     if (x <= 0)
         return 0;
