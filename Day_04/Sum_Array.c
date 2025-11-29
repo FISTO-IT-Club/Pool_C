@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// your given function is of SUM array not sum degits: BY Ali
 int sum_array(int arr[]) {
     int sum = 0;
     for (int i = 0; i < 5; i++) {
