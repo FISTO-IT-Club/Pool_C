@@ -5,14 +5,14 @@ void two_sum(int arr[], int size, int target) {
     int i = 0;
     int j;
 
-    printf("Recherche des indices...\n");
+    printf("Recherche indices.\n");
 
     while (i <= size - 1) {  
         j = i + 1;
 
         while (j < size) {
             if (arr[i] + arr[j] == target) {
-                printf("Paire trouvee : arr[%d] + arr[%d] = %d\n", i, j, target);
+                printf("Paire trouve: arr[%d] + arr[%d] = %d\n", i, j, target);
                 printf("Indices (1-based) : [%d, %d]\n", i + 1, j + 1);
                 return;
             }
