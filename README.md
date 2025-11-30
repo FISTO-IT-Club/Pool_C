@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Hamdouni Yassine
+- **AGE**: 21
+- **Discord ID**: 1206736421885452330
+- **Établissement**: Faculte des sciences oujda / Zone01 oujda
 
 ---
 
