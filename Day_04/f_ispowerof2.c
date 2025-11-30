@@ -1,6 +1,9 @@
 #include <stdio.h>
 
 int f_ispowerof2(int x) {
+	
+    printf("Entrer un nombre: ");
+    scanf("%d", &x);
     if (x <= 0)
         return 0;
 
@@ -9,17 +12,13 @@ int f_ispowerof2(int x) {
     }
 
     return (x == 1);
+    
+    
 }
 
 int main() {
-    int x;
-    printf("Entrer un nombre: ");
-    scanf("%d", &x);
-
-    if (f_ispowerof2(x))
-        printf("%d est une puissance de 2\n", x);
-    else
-        printf("%d n'est pas une puissance de 2\n", x);
+    
+          int  f_ispowerof2(x);
 
     return 0;
 }
