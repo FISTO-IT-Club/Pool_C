@@ -1,3 +1,4 @@
+// lot of errors, and you didn't look ahead for some if statment checkers, but it alright we appreciate the work .
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
