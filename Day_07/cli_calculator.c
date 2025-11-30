@@ -1,5 +1,6 @@
-    #include <stdio.h>
-    #include <stdbool.h>
+// no history implementation , but overall we accept the work
+#include <stdio.h>
+#include <stdbool.h>
     double factoriel(double a){
         if (a < 0 ) {
             printf(" ERROR: Negative number  \n");
