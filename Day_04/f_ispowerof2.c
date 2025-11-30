@@ -1,4 +1,6 @@
-#include <stdio.h>
+// #include <stdio.h>
+
+#include "calculatrice.h"
 int f_ispowerof2(int x)
 {
     if (x == 0){
@@ -16,11 +18,11 @@ int f_ispowerof2(int x)
     return x == 1;
 }
 
-int main()
-{
-    int x;
-    printf("Enter a number: ");
-    scanf("%d", &x);
-    f_ispowerof2(x);
-    return 0;
-}
+// int main()
+// {
+//     int x;
+//     printf("Enter a number: ");
+//     scanf("%d", &x);
+//     f_ispowerof2(x);
+//     return 0;
+// }

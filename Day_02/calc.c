@@ -1,6 +1,8 @@
-#include <stdio.h>
+// #include <stdio.h>
 
-void calc(void){
+#include "calculatrice.h" 
+void calc(void)
+{
 
     char operator;
     float num1 , num2;
@@ -11,9 +13,6 @@ void calc(void){
     scanf("%f", &num1);
     printf("Enter number 2: ");
     scanf("%f", &num2);
-    
-    
-    
     
     switch (operator) {
         case '+':
@@ -40,7 +39,7 @@ void calc(void){
     }
 }
 
-int main(void){
-    calc();
-    return 0;
-}
+// int main(void){
+//     calc();
+//     return 0;
+// }

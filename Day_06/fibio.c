@@ -10,11 +10,10 @@ long long fib_tail(int n, long long a, long long b)
 int main()
 {
     int n;
-
     printf("Enter a number: ");
-    
     scanf("%d", &n);
     
-    printf("%lld\n", fib_tail(n, 0, 1));
+    qprintf("%lld\n", fib_tail(n, 0, 1));
     return 0;
+
 }
