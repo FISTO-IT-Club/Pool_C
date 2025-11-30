@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Mohamed Idi Ousseïni Ben Saïd
+- **AGE**: 22
+- **Discord ID**: ben_said
+- **Établissement**: FSO
 
 ---
 
