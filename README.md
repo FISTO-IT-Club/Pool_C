@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Saidi aissa
+- **AGE**: 20
+- **Discord ID**: aissa saidi
+- **Établissement**: informatique appliquer
 
 ---
 
