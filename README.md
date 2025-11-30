@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: BERHILI Oumayma
+- **AGE**: 18 y.o
+- **Discord ID**: yoruichi0775_46523
+- **Établissement**: Universte mohammed premier
 
 ---
 
