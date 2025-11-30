@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Asmae Karzazi
+- **AGE**: 21 ans
+- **Discord ID**: asmae0828
+- **Établissement**: Faculté des sciences Oujda
 
 ---
 
