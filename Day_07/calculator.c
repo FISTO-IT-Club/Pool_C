@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define capacite 20
-// hhhhh ma3leksh a si ilyas, by Ali
+// hhhhh ma3leksh a si ilyas, by Ali (shuf l end)
 /*waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa3 */
 
 typedef struct {
@@ -218,6 +218,7 @@ int main() {
                 printf("Veuillez sélectionner 1-5.\n");
         }
     }
+// WORK HRBAAAAAAAAAN tbrkllah 3lik.
 
     return 0;
 }
