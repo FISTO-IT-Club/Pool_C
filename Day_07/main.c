@@ -1,74 +1,87 @@
 #include <stdio.h>
 #include <string.h>
-#include <math.h>
+#include <stdlib.h>
 
 int main()
 {
     printf("CLI Calculator\n");
-    char operator;
+
     double num1, num2, result;
-    char op[10];
-    int HISTORY_SIZE = 5;
+    char line[100];
+    char operator;
+    const int HISTORY_SIZE = 5;
     char history[5][100];
     int history_count = 0;
 
-    printf("Enter operation num1 (+, -, *, /) num2 or 'history' to view past calculations or 'exit' to quit:\n");
+    printf("Enter \"num1 operator num2\" (e.g., 4 + 6)\n");
+    printf("Type 'history' to view past calculations, or 'exit' to quit.\n");
+
     while (1)
     {
-
         printf("> ");
-        scanf("%lf %s %lf", &num1, op, &num2);
-        if (strcmp(op, "exit") == 0)
+        fgets(line, sizeof(line), stdin);
+
+        // Remove newline
+        line[strcspn(line, "\n")] = 0;
+
+        // Exit
+        if (strcmp(line, "exit") == 0)
         {
             break;
         }
-        else if (strcmp(op, "history") == 0)
+
+        // History
+        if (strcmp(line, "history") == 0)
         {
             printf("Calculation History:\n");
             for (int i = 0; i < history_count; i++)
             {
                 printf("%s\n", history[i]);
             }
-            // continue;
-            break;
+            continue;
         }
-        else
-        {
-            operator = op[0];
 
-            switch (operator)
+        if (sscanf(line, "%lf %c %lf", &num1, &operator, &num2) != 3)
+        {
+            printf("Invalid format. Use: num1 operator num2\n");
+            continue;
+        }
+
+        // Calculate
+        switch (operator)
+        {
+        case '+':
+            result = num1 + num2;
+            break;
+        case '-':
+            result = num1 - num2;
+            break;
+        case '*':
+            result = num1 * num2;
+            break;
+        case '/':
+            if (num2 == 0)
             {
-            case '+':
-                result = num1 + num2;
-                break;
-            case '-':
-                result = num1 - num2;
-                break;
-            case '*':
-                result = num1 * num2;
-                break;
-            case '/':
-                if (num2 != 0)
-                {
-                    result = num1 / num2;
-                }
-                else
-                {
-                    printf("Error: Division by zero\n");
-                    continue;
-                }
-                break;
-            default:
-                printf("Invalid operator\n");
+                printf("Error: Division by zero\n");
                 continue;
             }
-            printf("Result: %.2lf\n", result);
-            if (history_count < HISTORY_SIZE)
-            {
-                snprintf(history[history_count], sizeof(history[history_count]), "%.2lf %c %.2lf = %.2lf", num1, operator, num2, result);
-                history_count++;
-            }
+            result = num1 / num2;
+            break;
+        default:
+            printf("Invalid operator\n");
+            continue;
+        }
+
+        printf("Result: %.2lf\n", result);
+
+        if (history_count < HISTORY_SIZE)
+        {
+            snprintf(history[history_count], sizeof(history[history_count]),
+                     "%.2lf %c %.2lf = %.2lf",
+                     num1, operator, num2, result);
+            history_count++;
         }
     }
+
     return 0;
 }
