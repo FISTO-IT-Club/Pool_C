@@ -1,0 +1,2 @@
+# compile files 
+gcc -Wall -I. -I../Day_02 -o combined_app cli_calculator.c ../Day_02/calc.c

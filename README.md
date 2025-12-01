@@ -52,10 +52,10 @@ Projet éducatif sous la supervision du FISTO Club IT FSO.
 
 ## 👤 Vos Contact
 
-- **NOM COMPLET**: ...
-- **AGE**: ...
-- **Discord ID**: ...
-- **Établissement**: ...
+- **NOM COMPLET**: Mohamed lemine Mohamed 
+- **AGE**: 23
+- **Discord ID**: 1437561634917711874
+- **Établissement**: faculty of science - Oujda
 
 ---
 
